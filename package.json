@@ -1,0 +1,15 @@
+{
+  "name": "salon-c27-incidentes",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Incidentes - Salón C-27",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "build": "npx tsc",
+    "run:dist": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "tsx": "^4.11.0",
+    "@types/node": "^20.12.0"
+  }
+}
